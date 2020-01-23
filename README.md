@@ -8,7 +8,7 @@ The following rules will provide a great starting point for Firebase apps center
 
 These rules will only allow the creation of new data.
 
-``
+```
 service cloud.firestore {
   match /databases/{database}/documents {
     match /{document=**} {
@@ -18,7 +18,7 @@ service cloud.firestore {
     }
   }
 }
-``
+```
 
 These rules will prevent deletion or updating of data. Of course, this isn't suitable for all apps.
 
