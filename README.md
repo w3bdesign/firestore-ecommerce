@@ -1,2 +1,3 @@
-# firestore-ecommerce
-Security rules example for Firestore
+# Security rules example for Firestore
+
+See firestore.rules
